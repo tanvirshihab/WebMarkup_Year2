@@ -9,7 +9,7 @@
 /* reset css */
 
 @font-face {
-  font-family: 'notable';
+  font-family: 'Notable';
   src: url(./fonts/Notable-Regular.ttf);
 }
 html {
@@ -20,13 +20,11 @@ h1 {
   font-size: 4.236em;
   line-height: 1.618;
 }
-
 .aside > h2 {
   color: #003091;
   text-decoration: underline;
   margin-bottom: 1rem;
 }
-
 h2 {
   font-size: 1.618em;
   line-height: 1.618;
@@ -70,6 +68,7 @@ li {
   padding-bottom: 1em;
 }
 
+
 /* header part */
 header {
   position: relative;
@@ -78,7 +77,7 @@ header {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  /* logo part */
+/* logo part */
 }
 header .header1 {
   margin-left: 2em;
@@ -130,6 +129,7 @@ header .header1 .heading-part .second-heading {
   z-index: 9;
 }
 
+
 /*Strip the ul of padding and list styling*/
 .mobile-menu ul {
   border: 0.15em double #000000;
@@ -143,14 +143,24 @@ header .header1 .heading-part .second-heading {
   position: absolute;
   background: white;
 }
+/* Styles for unvisited links */
+a {
+  color: blue;
+}
+
+/* Styles for visited links */
+a:active {
+  color: rgb(0, 255, 64);
+}
+
 
 /*Create a horizontal list with spacing*/
 .mobile-menu li {
-  display: inline-block;
+  /*display: inline-block;*/
   height: 100%;
   padding: 0;
   float: left;
-  /*margin-right: 1px;*/
+  margin-right: 1px;
 }
 
 /*Style for menu links*/
@@ -171,8 +181,12 @@ header .header1 .heading-part .second-heading {
 
 /*Hover state for top level links*/
 .mobile-menu li:hover a {
-  color: #ffffff;
-  background-color: #2b72ff;;
+  background-color: #fb6d01;
+    color: #ffffff;
+}
+.mobile-menu .active {
+  background-color: #fb6d01;
+  color: #000000;
 }
 
 /*Style 'show menu' label button and hide it by default*/
@@ -186,6 +200,7 @@ header .header1 .heading-part .second-heading {
   cursor: pointer;
   text-transform: none;
 }
+
 
 .mobile-menu .show-menu span {
   padding-left: 2em;
@@ -392,6 +407,7 @@ header .header1 .heading-part .second-heading {
  td{
   padding: 1em;
 }
+
 .price-main .price-grid .price-grid-left .action {
   display: none;
 }
@@ -574,6 +590,7 @@ footer {
   .home-con .content-part .home-product .right-product-part img {
 	 float:left;
   }
+
   /* product page main part */
   .product-main .grid-container {
     display: grid;
@@ -767,4 +784,5 @@ footer {
   .contact-main .price-grid .price-grid-right {
     width: 100%;
   }
-}
+ 
+ }
