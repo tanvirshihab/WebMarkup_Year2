@@ -1,5 +1,7 @@
-Student name: Tanvir Shihab Bari Monne
-Student number: 699290
-Student class: IT1D
-URL student GitHub website: 
-URL student GitHub repository: 
+o Student name: Tanvir Shihab Bari Monne
+o Student number: 699290
+o Student class: IT1D
+o URL student GitHub website: https://tanvirshihab.github.io/WebMarkUp_Retake/
+o URL student GitHub repository: https://github.com/tanvirshihab/WebMarkUp_Retake
+
+o URL student GitHub repository: https://github.com/tanvirshihab/Student
